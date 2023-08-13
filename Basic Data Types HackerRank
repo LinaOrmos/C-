@@ -1,0 +1,26 @@
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+int main() {
+    // Complete the code.
+    int integerNum;
+    long longNum;
+    char characterNum;
+    float floatNum;
+    double doubleNum;
+
+    std::cin >> integerNum 
+             >> longNum 
+             >> characterNum 
+             >> floatNum 
+             >> doubleNum;
+             
+    std::cout << integerNum << '\n' 
+              << longNum << '\n' 
+              << characterNum << '\n' 
+              << floatNum << '\n' 
+              << doubleNum;
+   
+       return 0;
+}
