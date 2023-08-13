@@ -1,26 +1,24 @@
 #include <iostream>
 #include <cstdio>
+#include <iomanip>
 using namespace std;
 
 int main() {
     // Complete the code.
-    int integerNum;
-    long longNum;
-    char characterNum;
-    float floatNum;
-    double doubleNum;
-
-    std::cin >> integerNum 
-             >> longNum 
-             >> characterNum 
-             >> floatNum 
-             >> doubleNum;
-             
-    std::cout << integerNum << '\n' 
-              << longNum << '\n' 
-              << characterNum << '\n' 
-              << floatNum << '\n' 
-              << doubleNum;
-   
+  int z;
+   long x;
+   char c;
+   float v;
+   double b;
+   cin>>z;
+   cin>>x;
+   cin>>c;
+   cin>>v;
+   cin>>b;
+   cout<<setprecision(20)<<z <<"\n";
+   cout<<setprecision(20)<<x <<"\n";
+   cout<<setprecision(20)<<c <<"\n";
+   cout<<setprecision(20)<<v <<"\n";
+   cout<<setprecision(20)<<b <<"\n";      
        return 0;
 }
