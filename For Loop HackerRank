@@ -1,0 +1,45 @@
+#include <iostream>
+#include <cstdio>
+#include <map>
+#include <string>
+using namespace std;
+
+int main() {
+    // Complete the code.
+    int a,b;
+    
+    cin >> a; cin >> b;
+        //intalize output map
+    map<int, std::string> intToStrMap;
+
+    // Inserting elements into the map
+    intToStrMap[1] = "one";
+    intToStrMap[2] = "two";
+    intToStrMap[3] = "three";
+    intToStrMap[4] = "four";
+    intToStrMap[5] = "five";
+    intToStrMap[6] = "six";
+    intToStrMap[7] = "seven";
+    intToStrMap[8] = "eight";
+    intToStrMap[9] = "nine";
+
+    //Loop through a-b 
+    for (int i = a; i <= b; i++){
+        //if current i value is in the map gather key value
+        auto x = intToStrMap.find(i);
+                //check if map key value is in the map
+        if (x != intToStrMap.end()){
+                //TEST CASE OUTPUT 1
+            cout << intToStrMap[i] << "\n";
+        }
+        else if (i % 2 == 0){
+                //TEST CASE OUTPUT 2
+            cout << "even\n"; 
+        }
+        else if  (i % 2 == 1){
+                //TEST CASE OUTPUT 3
+            cout << "odd\n";
+        }
+    }
+    return 0;
+}
