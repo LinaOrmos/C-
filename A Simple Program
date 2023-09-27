@@ -1,0 +1,9 @@
+//This is a code useful as a first program
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+    cout << "Hello world!" << endl;
+
+    return 0;
+}
