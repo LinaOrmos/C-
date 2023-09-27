@@ -1,0 +1,8 @@
+//this code prints text
+#include <iostream>
+using namespace std;
+int main() {
+ cout << "My name is John and I am 30 years old " << endl;
+ cout << "I am 30 years old and my name is John" <<endl;
+    return 0;
+}
