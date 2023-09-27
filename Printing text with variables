@@ -1,0 +1,10 @@
+//This code prints text witth variables 
+#include <iostream>
+using namespace std;
+int main() {
+ string name = "Peter";
+ int age = 35;
+ cout << "My name is "<< name << " and I am "<< age <<" years old " << endl;
+ cout << "I am " <<age<<  " years old and my name is "<<name<<"." <<endl;
+    return 0;
+}
