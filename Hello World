@@ -1,0 +1,9 @@
+// this is an example of how to display a message
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+    cout << "Hello world!"<< endl;
+
+    return 0;
+}
