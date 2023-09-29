@@ -1,0 +1,12 @@
+//This is a code example of how we declare the data types
+#include <iostream>
+using namespace std;
+int main() {
+    char letra = 'a';
+    string  name="John";
+    int age = 20;
+    double grade = 7.1
+    bool passed = true;
+    
+    return 0;
+}
