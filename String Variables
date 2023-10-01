@@ -1,0 +1,13 @@
+//How to work with string variables 
+#include <iostream>
+using namespace std;
+int main() {
+    string name = "John Johnson";
+    //We are asking the length of the string
+    cout << name.length() << endl;
+    //We are going to look for the J letter
+    cout << name.find("J", 0) << endl;
+    return 0;
+    
+    
+}
