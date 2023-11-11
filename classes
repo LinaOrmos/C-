@@ -1,0 +1,17 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+class Alumnos{
+public:
+   string name;
+   int age;
+   double grade;
+};
+
+int main() {
+    students student1;
+    student1.name="John"
+    
+    return 0;
+}
