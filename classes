@@ -1,8 +1,8 @@
-// Online C++ compiler to run C++ program online
+
 #include <iostream>
 using namespace std;
 
-class Alumnos{
+class students{
 public:
    string name;
    int age;
@@ -15,7 +15,7 @@ int main() {
     student1.age=27;
     student1.grade= 8.2;
 
-    students student2
+    students student2;
     student2.name = "Peter";
     student2.age = 23;
     student2.grade = 7.7;
