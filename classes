@@ -11,7 +11,7 @@ public:
 
 int main() {
     students student1;
-    student1.name="John"
+    student1.name="John";
     student1.age=27;
     student1.grade= 8.2;
 
